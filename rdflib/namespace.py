@@ -285,7 +285,6 @@ class NamespaceManager(object):
         self.graph = graph
         self.__cache = {}
         self.__log = None
-        self.bind("xml", "http://www.w3.org/XML/1998/namespace")
         self.bind("rdf", RDF)
         self.bind("rdfs", RDFS)
         self.bind("xsd", XSD)
